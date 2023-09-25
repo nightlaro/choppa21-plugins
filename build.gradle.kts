@@ -13,10 +13,6 @@ plugins {
     kotlin("jvm") version "1.6.21"
 }
 
-project.extra["GithubUrl"] = "https://github.com/melxin/devious-plugins-extended"
-project.extra["GithubUserName"] = "melxin"
-project.extra["GithubRepoName"] = "devious-plugins-extended"
-
 apply<BootstrapPlugin>()
 
 allprojects {
