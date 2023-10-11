@@ -32,7 +32,7 @@ include("m-autoswitcher")
 include("m-powerfisher")
 include("m-wintertodt")
 
-//include("example-kotlin")
+include("example-kotlin")
 
 for (project in rootProject.children) {
     project.apply {
